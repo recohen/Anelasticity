@@ -1,0 +1,23 @@
+# fei2023_model.py: Fei et al. 2023 model re-implemented; T = 2200 K, 27 GPa
+## Check against Fei Fig. 4a (grain size at 4.5 Gyr, 2200 K):
+  X_fpc = 0.00: n = 2.74, k = 6.17e-02 um^n/s, d(4.5 Gyr) = 6.58e+05 um
+  X_fpc = 0.03: n = 4.55, k = 1.31e-02 um^n/s, d(4.5 Gyr) = 2.27e+03 um
+  X_fpc = 0.05: n = 4.92, k = 5.71e-03 um^n/s, d(4.5 Gyr) = 1.07e+03 um
+  X_fpc = 0.10: n = 5.14, k = 1.23e-03 um^n/s, d(4.5 Gyr) = 587 um
+  X_fpc = 0.20: n = 5.17, k = 2.42e-04 um^n/s, d(4.5 Gyr) = 415 um
+## Check against Fei Fig. 4b,c (bridgmanite, d from 4.5 Gyr growth):
+  X = 0.00, d = 6.58e+05 um, sigma = 0.1 MPa: e_diff = 4.10e-21, e_climb = 6.50e-18, eta = 1.54e+22 Pa s
+  X = 0.00, d = 6.58e+05 um, sigma = 0.5 MPa: e_diff = 2.05e-20, e_climb = 9.12e-16, eta = 5.48e+20 Pa s
+  X = 0.00, d = 6.58e+05 um, sigma = 1.0 MPa: e_diff = 4.10e-20, e_climb = 7.70e-15, eta = 1.30e+20 Pa s
+  X = 0.05, d = 1.07e+03 um, sigma = 0.1 MPa: e_diff = 1.55e-15, e_climb = 6.50e-18, eta = 6.45e+19 Pa s
+  X = 0.05, d = 1.07e+03 um, sigma = 0.5 MPa: e_diff = 7.73e-15, e_climb = 9.12e-16, eta = 5.79e+19 Pa s
+  X = 0.05, d = 1.07e+03 um, sigma = 1.0 MPa: e_diff = 1.55e-14, e_climb = 7.70e-15, eta = 4.32e+19 Pa s
+  X = 0.20, d = 415 um, sigma = 0.1 MPa: e_diff = 1.03e-14, e_climb = 6.50e-18, eta = 9.68e+18 Pa s
+  X = 0.20, d = 415 um, sigma = 0.5 MPa: e_diff = 5.16e-14, e_climb = 9.12e-16, eta = 9.52e+18 Pa s
+  X = 0.20, d = 415 um, sigma = 1.0 MPa: e_diff = 1.03e-13, e_climb = 7.70e-15, eta = 9.01e+18 Pa s
+## MgO vs MgSiO3 at sigma = 0.5 MPa (rate-limiting species; Coble crossover d* = dD_gb / D_lat):
+  Bdg (Fei 2023; Si, Yamazaki 2000): D_lat = 2.39e-18 m2/s, dD_gb = 1.9e-24 m3/s, d* = 0.000795 mm; eta(d = 0.4 mm) = 8.48e+18, eta(d = 3 mm) = 2.63e+20 Pa s
+  Bdg, Si GB from van Driel (GAP MD; dD = 0.8 nm x D_gb): D_lat = 2.39e-18 m2/s, dD_gb = 3.6e-22 m3/s, d* = 0.151 mm; eta(d = 0.4 mm) = 6.17e+18, eta(d = 3 mm) = 2.57e+20 Pa s
+  MgO intrinsic O (Ita & Cohen fit, Cordier 2023 Eq. 2), no GB path: D_lat = 2.80e-24 m2/s, dD_gb = 0.0e+00 m3/s, d* = 0 mm; eta(d = 0.4 mm) = 1.71e+25, eta(d = 3 mm) = 2.01e+26 Pa s
+  MgO extrinsic O (X_v = 1e-5, Ita & Cohen dG_m = 2.68 eV): D_lat = 6.19e-18 m2/s, dD_gb = 0.0e+00 m3/s, d* = 0 mm; eta(d = 0.4 mm) = 7.76e+18, eta(d = 3 mm) = 9.10e+19 Pa s
+  MgO intrinsic O + GB (our DeePMD dD_b upper bound 1e-20): D_lat = 2.80e-24 m2/s, dD_gb = 1.0e-20 m3/s, d* = 3.57e+06 mm; eta(d = 0.4 mm) = 2.02e+18, eta(d = 3 mm) = 9.10e+20 Pa s

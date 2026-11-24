@@ -1,0 +1,96 @@
+=== P20_T2000 n4_bound
+P20_T2000_n4_perfect: T 2000 K, P 20.0 GPa, N 512, V/atom 8.9592 Å³, k = 9.07, 9.56 eV/Å², F = -3532.0254 ± 0.0621 eV (-6.89849 eV/atom), F_CM -2.533, dissipation -0.066 eV, 6 replicas, max |dr| 0.66, 0.72, 0.76, 0.68, 0.67, 0.73 Å
+P20_T2000_n4_bound: T 2000 K, P 20.0 GPa, N 510, V/atom 8.9943 Å³, k = 8.90, 9.44 eV/Å², F = -3515.1954 ± 0.0888 eV (-6.89254 eV/atom), F_CM -2.529, dissipation -0.154 eV, 6 replicas, max |dr| 0.71, 0.75, 0.68, 0.69, 0.79, 0.64 Å
+Fixed-volume mode (Eq. 3b): P_D - P_I = -0.173 GPa at V_I; K_T = 246 GPa; relaxation V_D - V_I = -3.22 Å³; second-order term -0.002 eV; formation volume 14.70 Å³ = 1.64 Ω
+Eq. 3: F_D - (N-L)/N F_I = 3.033 eV;  P [V_D - (N-L)/N V_I] = 2.237 eV  (formation volume 17.918 Å³ = 2.00 Ω)
+Delta G_f = 5.268 ± 0.108 eV = 8.44 ± 0.17 x 1e-19 J at 20.0 GPa, 2000 K
+=== P20_T2000 n6_separated
+P20_T2000_n6_perfect: T 2000 K, P 20.0 GPa, N 1728, V/atom 8.9581 Å³, k = 8.33, 8.83 eV/Å², F = -11915.7744 ± 0.1471 eV (-6.89570 eV/atom), F_CM -2.826, dissipation 0.184 eV, 6 replicas, max |dr| 0.78, 0.80, 0.83, 0.77, 0.72, 0.72 Å
+P20_T2000_n6_separated: T 2000 K, P 20.0 GPa, N 1726, V/atom 8.9685 Å³, k = 8.48, 8.93 eV/Å², F = -11897.7182 ± 0.0979 eV (-6.89323 eV/atom), F_CM -2.830, dissipation 0.281 eV, 6 replicas, max |dr| 0.71, 0.80, 0.82, 0.70, 0.73, 0.69 Å
+Fixed-volume mode (Eq. 3b): P_D - P_I = +0.017 GPa at V_I; K_T = 246 GPa; relaxation V_D - V_I = +1.07 Å³; second-order term -0.000 eV; formation volume 18.99 Å³ = 2.12 Ω
+Eq. 3: F_D - (N-L)/N F_I = 4.265 eV;  P [V_D - (N-L)/N V_I] = 2.236 eV  (formation volume 17.916 Å³ = 2.00 Ω)
+Delta G_f = 6.501 ± 0.177 eV = 10.42 ± 0.28 x 1e-19 J at 20.0 GPa, 2000 K
+=== P80_T2000 n4_bound
+P80_T2000_n4_perfect: T 2000 K, P 80.0 GPa, N 512, V/atom 7.2963 Å³, k = 13.77, 14.30 eV/Å², F = -3291.6090 ± 0.0726 eV (-6.42892 eV/atom), F_CM -2.605, dissipation 0.032 eV, 6 replicas, max |dr| 0.54, 0.54, 0.59, 0.59, 0.51, 0.53 Å
+P80_T2000_n4_bound: T 2000 K, P 80.0 GPa, N 510, V/atom 7.3249 Å³, k = 14.16, 14.73 eV/Å², F = -3276.7170 ± 0.0641 eV (-6.42494 eV/atom), F_CM -2.612, dissipation -0.132 eV, 6 replicas, max |dr| 0.64, 0.56, 0.70, 0.65, 0.58, 0.68 Å
+Fixed-volume mode (Eq. 3b): P_D - P_I = -0.564 GPa at V_I; K_T = 444 GPa; relaxation V_D - V_I = -4.74 Å³; second-order term -0.008 eV; formation volume 9.85 Å³ = 1.35 Ω
+Eq. 3: F_D - (N-L)/N F_I = 2.034 eV;  P [V_D - (N-L)/N V_I] = 7.286 eV  (formation volume 14.593 Å³ = 2.00 Ω)
+Delta G_f = 9.312 ± 0.097 eV = 14.92 ± 0.15 x 1e-19 J at 80.0 GPa, 2000 K
+=== P80_T2000 n6_separated
+P80_T2000_n6_perfect: T 2000 K, P 80.0 GPa, N 1728, V/atom 7.2969 Å³, k = 14.30, 14.77 eV/Å², F = -11105.0295 ± 0.1549 eV (-6.42652 eV/atom), F_CM -2.929, dissipation 0.451 eV, 6 replicas, max |dr| 0.63, 0.57, 0.55, 0.54, 0.54, 0.56 Å
+P80_T2000_n6_separated: T 2000 K, P 80.0 GPa, N 1726, V/atom 7.3054 Å³, k = 14.18, 14.68 eV/Å², F = -11087.8457 ± 0.1551 eV (-6.42401 eV/atom), F_CM -2.927, dissipation 0.103 eV, 6 replicas, max |dr| 0.60, 0.58, 0.58, 0.61, 0.59, 0.64 Å
+Fixed-volume mode (Eq. 3b): P_D - P_I = -0.148 GPa at V_I; K_T = 444 GPa; relaxation V_D - V_I = -4.20 Å³; second-order term -0.002 eV; formation volume 10.39 Å³ = 1.42 Ω
+Eq. 3: F_D - (N-L)/N F_I = 4.331 eV;  P [V_D - (N-L)/N V_I] = 7.287 eV  (formation volume 14.594 Å³ = 2.00 Ω)
+Delta G_f = 11.616 ± 0.219 eV = 18.61 ± 0.35 x 1e-19 J at 80.0 GPa, 2000 K
+=== P140_T3000 n4_bound
+P140_T3000_n4_perfect: T 3000 K, P 140.0 GPa, N 512, V/atom 6.5617 Å³, k = 17.41, 17.90 eV/Å², F = -3323.8401 ± 0.1191 eV (-6.49188 eV/atom), F_CM -3.812, dissipation -0.214 eV, 6 replicas, max |dr| 0.75, 0.73, 0.59, 0.56, 0.88, 0.59 Å
+P140_T3000_n4_bound: T 3000 K, P 140.0 GPa, N 510, V/atom 6.5874 Å³, k = 16.75, 17.26 eV/Å², F = -3309.8487 ± 0.1205 eV (-6.48990 eV/atom), F_CM -3.797, dissipation -0.102 eV, 6 replicas, max |dr| 0.69, 0.77, 0.78, 0.63, 0.61, 0.77 Å
+Fixed-volume mode (Eq. 3b): P_D - P_I = -1.171 GPa at V_I; K_T = 642 GPa; relaxation V_D - V_I = -6.13 Å³; second-order term -0.022 eV; formation volume 6.99 Å³ = 1.07 Ω
+Eq. 3: F_D - (N-L)/N F_I = 1.008 eV;  P [V_D - (N-L)/N V_I] = 11.467 eV  (formation volume 13.123 Å³ = 2.00 Ω)
+Delta G_f = 12.453 ± 0.169 eV = 19.95 ± 0.27 x 1e-19 J at 140.0 GPa, 3000 K
+=== P140_T3000 n6_separated
+P140_T3000_n6_perfect: T 3000 K, P 140.0 GPa, N 1728, V/atom 6.5621 Å³, k = 17.42, 17.87 eV/Å², F = -11211.3523 ± 0.1458 eV (-6.48805 eV/atom), F_CM -4.284, dissipation 0.619 eV, 6 replicas, max |dr| 0.65, 0.64, 0.64, 0.57, 0.63, 0.62 Å
+P140_T3000_n6_separated: T 3000 K, P 140.0 GPa, N 1726, V/atom 6.5697 Å³, k = 16.92, 17.42 eV/Å², F = -11194.5413 ± 0.1842 eV (-6.48583 eV/atom), F_CM -4.273, dissipation 0.774 eV, 6 replicas, max |dr| 0.63, 0.64, 0.67, 0.68, 0.59, 0.62 Å
+Fixed-volume mode (Eq. 3b): P_D - P_I = -0.326 GPa at V_I; K_T = 642 GPa; relaxation V_D - V_I = -5.76 Å³; second-order term -0.006 eV; formation volume 7.36 Å³ = 1.12 Ω
+Eq. 3: F_D - (N-L)/N F_I = 3.835 eV;  P [V_D - (N-L)/N V_I] = 11.468 eV  (formation volume 13.124 Å³ = 2.00 Ω)
+Delta G_f = 15.297 ± 0.235 eV = 24.51 ± 0.38 x 1e-19 J at 140.0 GPa, 3000 K
+=== P30_T2000 n4_bound
+P30_T2000_n4_perfect: T 2000 K, P 30.0 GPa, N 512, V/atom 8.5438 Å³, k = 9.85, 10.39 eV/Å², F = -3499.0306 ± 0.0483 eV (-6.83404 eV/atom), F_CM -2.547, dissipation -0.085 eV, 6 replicas, max |dr| 0.63, 0.79, 0.61, 0.61, 0.68, 0.67 Å
+P30_T2000_n4_bound: T 2000 K, P 30.0 GPa, N 510, V/atom 8.5773 Å³, k = 10.13, 10.54 eV/Å², F = -3482.5161 ± 0.0259 eV (-6.82846 eV/atom), F_CM -2.552, dissipation -0.049 eV, 6 replicas, max |dr| 0.77, 0.69, 0.78, 0.79, 0.66, 0.62 Å
+Fixed-volume mode (Eq. 3b): P_D - P_I = -0.158 GPa at V_I; K_T = 279 GPa; relaxation V_D - V_I = -2.48 Å³; second-order term -0.001 eV; formation volume 14.61 Å³ = 1.71 Ω
+Eq. 3: F_D - (N-L)/N F_I = 2.846 eV;  P [V_D - (N-L)/N V_I] = 3.200 eV  (formation volume 17.088 Å³ = 2.00 Ω)
+Delta G_f = 6.045 ± 0.055 eV = 9.68 ± 0.09 x 1e-19 J at 30.0 GPa, 2000 K
+=== P30_T2000 n6_separated
+P30_T2000_n6_perfect: T 2000 K, P 30.0 GPa, N 1728, V/atom 8.5463 Å³, k = 9.73, 10.22 eV/Å², F = -11805.7896 ± 0.1998 eV (-6.83205 eV/atom), F_CM -2.858, dissipation 0.101 eV, 6 replicas, max |dr| 0.62, 0.71, 0.84, 0.69, 0.73, 0.71 Å
+P30_T2000_n6_separated: T 2000 K, P 30.0 GPa, N 1726, V/atom 8.5562 Å³, k = 9.74, 10.21 eV/Å², F = -11787.6630 ± 0.1988 eV (-6.82947 eV/atom), F_CM -2.858, dissipation 0.254 eV, 6 replicas, max |dr| 0.76, 0.72, 0.68, 0.68, 0.68, 0.67 Å
+Fixed-volume mode (Eq. 3b): P_D - P_I = +0.014 GPa at V_I; K_T = 279 GPa; relaxation V_D - V_I = +0.73 Å³; second-order term -0.000 eV; formation volume 17.82 Å³ = 2.08 Ω
+Eq. 3: F_D - (N-L)/N F_I = 4.463 eV;  P [V_D - (N-L)/N V_I] = 3.201 eV  (formation volume 17.093 Å³ = 2.00 Ω)
+Delta G_f = 7.663 ± 0.282 eV = 12.28 ± 0.45 x 1e-19 J at 30.0 GPa, 2000 K
+=== P30_T2000 n6_bound
+P30_T2000_n6_perfect: T 2000 K, P 30.0 GPa, N 1728, V/atom 8.5463 Å³, k = 9.73, 10.22 eV/Å², F = -11805.7896 ± 0.1998 eV (-6.83205 eV/atom), F_CM -2.858, dissipation 0.101 eV, 6 replicas, max |dr| 0.62, 0.71, 0.84, 0.69, 0.73, 0.71 Å
+P30_T2000_n6_bound: T 2000 K, P 30.0 GPa, N 1726, V/atom 8.5562 Å³, k = 9.84, 10.36 eV/Å², F = -11789.2245 ± 0.1577 eV (-6.83037 eV/atom), F_CM -2.860, dissipation 0.075 eV, 6 replicas, max |dr| 0.71, 0.75, 0.71, 0.72, 0.67, 0.66 Å
+Fixed-volume mode (Eq. 3b): P_D - P_I = -0.031 GPa at V_I; K_T = 279 GPa; relaxation V_D - V_I = -1.65 Å³; second-order term -0.000 eV; formation volume 15.44 Å³ = 1.81 Ω
+Eq. 3: F_D - (N-L)/N F_I = 2.901 eV;  P [V_D - (N-L)/N V_I] = 3.201 eV  (formation volume 17.093 Å³ = 2.00 Ω)
+Delta G_f = 6.101 ± 0.254 eV = 9.78 ± 0.41 x 1e-19 J at 30.0 GPa, 2000 K
+=== P60_T2300 n4_bound
+P60_T2300_n4_perfect: T 2300 K, P 60.0 GPa, N 512, V/atom 7.7397 Å³, k = 12.71, 13.14 eV/Å², F = -3473.8467 ± 0.1115 eV (-6.78486 eV/atom), F_CM -2.941, dissipation -0.179 eV, 6 replicas, max |dr| 0.67, 0.61, 0.72, 0.87, 0.76, 0.66 Å
+P60_T2300_n4_bound: T 2300 K, P 60.0 GPa, N 510, V/atom 7.7700 Å³, k = 12.76, 13.23 eV/Å², F = -3457.6389 ± 0.0523 eV (-6.77968 eV/atom), F_CM -2.943, dissipation -0.071 eV, 6 replicas, max |dr| 0.67, 0.67, 0.66, 0.67, 0.63, 0.78 Å
+Fixed-volume mode (Eq. 3b): P_D - P_I = -0.439 GPa at V_I; K_T = 378 GPa; relaxation V_D - V_I = -4.60 Å³; second-order term -0.006 eV; formation volume 10.88 Å³ = 1.41 Ω
+Eq. 3: F_D - (N-L)/N F_I = 2.638 eV;  P [V_D - (N-L)/N V_I] = 5.797 eV  (formation volume 15.479 Å³ = 2.00 Ω)
+Delta G_f = 8.429 ± 0.123 eV = 13.50 ± 0.20 x 1e-19 J at 60.0 GPa, 2300 K
+=== P60_T2300 n6_separated
+P60_T2300_n6_perfect: T 2300 K, P 60.0 GPa, N 1728, V/atom 7.7407 Å³, k = 12.20, 12.69 eV/Å², F = -11719.1134 ± 0.1938 eV (-6.78189 eV/atom), F_CM -3.292, dissipation 0.206 eV, 6 replicas, max |dr| 0.66, 0.60, 0.73, 0.67, 0.66, 0.75 Å
+P60_T2300_n6_separated: T 2300 K, P 60.0 GPa, N 1726, V/atom 7.7496 Å³, k = 12.52, 13.01 eV/Å², F = -11701.3378 ± 0.1911 eV (-6.77945 eV/atom), F_CM -3.299, dissipation 0.169 eV, 6 replicas, max |dr| 0.63, 0.74, 0.72, 0.72, 0.62, 0.62 Å
+Fixed-volume mode (Eq. 3b): P_D - P_I = -0.101 GPa at V_I; K_T = 378 GPa; relaxation V_D - V_I = -3.56 Å³; second-order term -0.001 eV; formation volume 11.92 Å³ = 1.54 Ω
+Eq. 3: F_D - (N-L)/N F_I = 4.212 eV;  P [V_D - (N-L)/N V_I] = 5.798 eV  (formation volume 15.481 Å³ = 2.00 Ω)
+Delta G_f = 10.008 ± 0.272 eV = 16.04 ± 0.44 x 1e-19 J at 60.0 GPa, 2300 K
+=== P90_T2500 n4_bound
+P90_T2500_n4_perfect: T 2500 K, P 90.0 GPa, N 512, V/atom 7.1842 Å³, k = 14.90, 15.54 eV/Å², F = -3400.7744 ± 0.0559 eV (-6.64214 eV/atom), F_CM -3.206, dissipation -0.197 eV, 6 replicas, max |dr| 0.85, 0.62, 0.67, 0.62, 0.68, 0.61 Å
+P90_T2500_n4_bound: T 2500 K, P 90.0 GPa, N 510, V/atom 7.2123 Å³, k = 14.84, 15.34 eV/Å², F = -3385.4139 ± 0.0968 eV (-6.63807 eV/atom), F_CM -3.204, dissipation -0.199 eV, 6 replicas, max |dr| 0.65, 0.55, 0.60, 0.67, 0.71, 0.62 Å
+Fixed-volume mode (Eq. 3b): P_D - P_I = -0.729 GPa at V_I; K_T = 477 GPa; relaxation V_D - V_I = -5.62 Å³; second-order term -0.013 eV; formation volume 8.75 Å³ = 1.22 Ω
+Eq. 3: F_D - (N-L)/N F_I = 2.076 eV;  P [V_D - (N-L)/N V_I] = 8.071 eV  (formation volume 14.368 Å³ = 2.00 Ω)
+Delta G_f = 10.135 ± 0.112 eV = 16.24 ± 0.18 x 1e-19 J at 90.0 GPa, 2500 K
+=== P90_T2500 n6_separated
+P90_T2500_n6_perfect: T 2500 K, P 90.0 GPa, N 1728, V/atom 7.1860 Å³, k = 14.26, 14.67 eV/Å², F = -11472.5966 ± 0.2010 eV (-6.63923 eV/atom), F_CM -3.584, dissipation 0.331 eV, 6 replicas, max |dr| 0.69, 0.59, 0.70, 0.68, 0.78, 0.60 Å
+P90_T2500_n6_separated: T 2500 K, P 90.0 GPa, N 1726, V/atom 7.1943 Å³, k = 14.22, 14.70 eV/Å², F = -11455.2562 ± 0.1540 eV (-6.63688 eV/atom), F_CM -3.583, dissipation 0.320 eV, 6 replicas, max |dr| 0.60, 0.61, 0.62, 0.68, 0.66, 0.60 Å
+Fixed-volume mode (Eq. 3b): P_D - P_I = -0.202 GPa at V_I; K_T = 477 GPa; relaxation V_D - V_I = -5.26 Å³; second-order term -0.003 eV; formation volume 9.11 Å³ = 1.27 Ω
+Eq. 3: F_D - (N-L)/N F_I = 4.062 eV;  P [V_D - (N-L)/N V_I] = 8.073 eV  (formation volume 14.372 Å³ = 2.00 Ω)
+Delta G_f = 12.132 ± 0.253 eV = 19.44 ± 0.41 x 1e-19 J at 90.0 GPa, 2500 K
+=== P120_T2800 n4_bound
+P120_T2800_n4_perfect: T 2800 K, P 120.0 GPa, N 512, V/atom 6.7808 Å³, k = 16.66, 17.16 eV/Å², F = -3354.5885 ± 0.0976 eV (-6.55193 eV/atom), F_CM -3.575, dissipation 0.082 eV, 6 replicas, max |dr| 0.55, 0.59, 0.68, 0.60, 0.67, 0.60 Å
+P120_T2800_n4_bound: T 2800 K, P 120.0 GPa, N 510, V/atom 6.8074 Å³, k = 16.18, 16.67 eV/Å², F = -3340.3417 ± 0.0527 eV (-6.54969 eV/atom), F_CM -3.564, dissipation -0.300 eV, 6 replicas, max |dr| 0.81, 0.58, 0.66, 0.63, 0.71, 0.76 Å
+Fixed-volume mode (Eq. 3b): P_D - P_I = -0.937 GPa at V_I; K_T = 576 GPa; relaxation V_D - V_I = -5.64 Å³; second-order term -0.016 eV; formation volume 7.92 Å³ = 1.17 Ω
+Eq. 3: F_D - (N-L)/N F_I = 1.143 eV;  P [V_D - (N-L)/N V_I] = 10.157 eV  (formation volume 13.562 Å³ = 2.00 Ω)
+Delta G_f = 11.284 ± 0.111 eV = 18.08 ± 0.18 x 1e-19 J at 120.0 GPa, 2800 K
+=== P120_T2800 n6_separated
+P120_T2800_n6_perfect: T 2800 K, P 120.0 GPa, N 1728, V/atom 6.7825 Å³, k = 15.80, 16.28 eV/Å², F = -11317.0676 ± 0.2192 eV (-6.54923 eV/atom), F_CM -3.997, dissipation 0.564 eV, 6 replicas, max |dr| 0.69, 0.66, 0.65, 0.60, 0.60, 0.70 Å
+P120_T2800_n6_separated: T 2800 K, P 120.0 GPa, N 1726, V/atom 6.7904 Å³, k = 16.29, 16.79 eV/Å², F = -11300.5158 ± 0.1401 eV (-6.54723 eV/atom), F_CM -4.007, dissipation 0.273 eV, 6 replicas, max |dr| 0.75, 0.65, 0.68, 0.61, 0.65, 0.60 Å
+Fixed-volume mode (Eq. 3b): P_D - P_I = -0.251 GPa at V_I; K_T = 576 GPa; relaxation V_D - V_I = -5.10 Å³; second-order term -0.004 eV; formation volume 8.46 Å³ = 1.25 Ω
+Eq. 3: F_D - (N-L)/N F_I = 3.453 eV;  P [V_D - (N-L)/N V_I] = 10.160 eV  (formation volume 13.565 Å³ = 2.00 Ω)
+Delta G_f = 13.609 ± 0.260 eV = 21.80 ± 0.42 x 1e-19 J at 120.0 GPa, 2800 K
+=== P120_T2800 n6_bound
+P120_T2800_n6_perfect: T 2800 K, P 120.0 GPa, N 1728, V/atom 6.7825 Å³, k = 15.80, 16.28 eV/Å², F = -11317.0676 ± 0.2192 eV (-6.54923 eV/atom), F_CM -3.997, dissipation 0.564 eV, 6 replicas, max |dr| 0.69, 0.66, 0.65, 0.60, 0.60, 0.70 Å
+P120_T2800_n6_bound: T 2800 K, P 120.0 GPa, N 1726, V/atom 6.7904 Å³, k = 15.63, 16.05 eV/Å², F = -11303.0474 ± 0.2622 eV (-6.54869 eV/atom), F_CM -3.992, dissipation 0.792 eV, 6 replicas, max |dr| 2.84, 0.63, 0.62, 0.59, 0.71, 0.61 Å HOP?
+Fixed-volume mode (Eq. 3b): P_D - P_I = -0.353 GPa at V_I; K_T = 576 GPa; relaxation V_D - V_I = -7.17 Å³; second-order term -0.008 eV; formation volume 6.39 Å³ = 0.94 Ω
+Eq. 3: F_D - (N-L)/N F_I = 0.922 eV;  P [V_D - (N-L)/N V_I] = 10.160 eV  (formation volume 13.565 Å³ = 2.00 Ω)
+Delta G_f = 11.074 ± 0.342 eV = 17.74 ± 0.55 x 1e-19 J at 120.0 GPa, 2800 K

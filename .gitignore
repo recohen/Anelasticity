@@ -1,0 +1,53 @@
+# heavy/derived artifacts — never in the repo (the q-e wedge lesson)
+*.bindat
+*.x
+out/
+*.save/
+*.wfc*
+*.hub*
+*.dat.gz
+.obsidian/
+.claude/
+slurm-*.out
+# third-party journal PDFs (redistribution): add deliberately if wanted
+*.pdf
+# RC 2026-08-22 / CLAUDE.md: "Only source files belong in git repo,
+# never binaries, tables etc."
+__pycache__/
+*.pyc
+*.bindat
+*~
+CRASH
+
+# ---- RC 2026-08-24 cleanup (CLAUDE.md: "Only source files belong in git
+# repo, never binaries, tables etc.").  All of these stay ON DISK; they are
+# untracked with `git rm --cached`, never deleted.
+# NOTE: .gitignore has NO trailing-comment syntax -- a pattern written as
+# "*.png   # figures" is taken LITERALLY and matches nothing.  Comments must
+# be on their own line.  (Got this wrong first time, 2026-08-24.)
+#
+# 157 derived figures, 21 MB; no tracked .md references any of them
+*.png
+# pseudopotential data -- lives in ~/PSEUDO, not here
+*.upf
+# binary (vaspout.h5)
+*.h5
+# ld1.x run outputs, 12.6 MB
+pseudo_inputs/**/*.out
+MnO_WC_auto/run.out
+# LaTeX aux
+*.aux
+*.log
+*.toc
+REN_methods_paper/ren_methods.out
+# editor/script backups -- source only in the repo (RC 2026-08-29)
+*.bak
+*.bak[0-9]*
+*~
+*.bak_*
+
+# Generated pseudopotentials and generator logs are ARTIFACTS, never source (REQ-23).
+# The .in files above them ARE source and stay tracked.
+pseudo_inputs/CANDIDATES_DRAFT/*.upf
+pseudo_inputs/CANDIDATES_DRAFT/*.out
+pseudo_inputs/CANDIDATES_DRAFT/*.psp8

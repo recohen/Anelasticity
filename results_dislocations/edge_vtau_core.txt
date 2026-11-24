@@ -1,0 +1,9 @@
+# disl_vtau_plot.py: label tau(GPa) v_core(m/s) dv v_topblock(m/s, biased)
+edge_P175_T3500_long 0.150 219 16 174
+edge_P175_T3500_long 0.250 404 20 316
+edge_P175_T3500_long 0.350 533 28 425
+edge_P175_T3500_long 0.500 737 19 583
+edge_P175_T3500_L262 0.250 371 15 291
+edge_P175_T3500_L262 0.350 518 16 414
+# Eq. 1 fit through origin: v/tau = 1493 ± 23 m/s/GPa, B = 1.755e-04 ± 2.7e-06 Pa s, chi2/dof = 0.59
+# free intercept: k = 1467 ± 66 m/s/GPa, c = 8 ± 21 m/s, tau_0 = -0.006 GPa
